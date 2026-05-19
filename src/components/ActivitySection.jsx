@@ -77,24 +77,49 @@ export default function ActivitySection({ activities, restaurants, favorited, sh
           )
         })}
 
-        {showRestaurants && cityRestaurants.length > 0 && (
-          <div>
-            {showActivities && <div className="border-t border-stone-200 pt-4 mt-2" />}
-            <h3 className="text-lg font-semibold text-stone-700 mb-3">Restaurants</h3>
-            <div className="grid gap-3">
-              {cityRestaurants.map(restaurant => (
-                <OptionCard
-                  key={restaurant.id}
-                  item={restaurant}
-                  type="restaurant"
-                  favorited={favorited(restaurant.id)}
-                  sharedFavorite={sharedFavorite(restaurant.id)}
-                  onToggleFavorite={onToggleFavorite}
-                />
-              ))}
+        {showRestaurants && cityRestaurants.length > 0 && (() => {
+          const food = cityRestaurants.filter(r => r.category === 'restaurant')
+          const pubs = cityRestaurants.filter(r => r.category === 'pub')
+          return (
+            <div>
+              {showActivities && <div className="border-t border-stone-200 pt-4 mt-2" />}
+              {food.length > 0 && (
+                <>
+                  <h3 className="text-lg font-semibold text-stone-700 mb-3">Restaurants</h3>
+                  <div className="grid gap-3">
+                    {food.map(restaurant => (
+                      <OptionCard
+                        key={restaurant.id}
+                        item={restaurant}
+                        type="restaurant"
+                        favorited={favorited(restaurant.id)}
+                        sharedFavorite={sharedFavorite(restaurant.id)}
+                        onToggleFavorite={onToggleFavorite}
+                      />
+                    ))}
+                  </div>
+                </>
+              )}
+              {pubs.length > 0 && (
+                <>
+                  <h3 className="text-lg font-semibold text-stone-700 mb-3 mt-6">Pubs & Bars</h3>
+                  <div className="grid gap-3">
+                    {pubs.map(pub => (
+                      <OptionCard
+                        key={pub.id}
+                        item={pub}
+                        type="restaurant"
+                        favorited={favorited(pub.id)}
+                        sharedFavorite={sharedFavorite(pub.id)}
+                        onToggleFavorite={onToggleFavorite}
+                      />
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
-          </div>
-        )}
+          )
+        })()}
 
         {!showActivities && cityRestaurants.length === 0 && (
           <p className="text-sm text-stone-400 text-center py-4">No restaurants for {activeCity}</p>

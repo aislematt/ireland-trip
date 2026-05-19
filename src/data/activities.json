@@ -414,6 +414,45 @@
       "bookingRequired": false,
       "description": "Hidden gem just minutes from Princes Street. A picturesque former milling village along the Water of Leith with stone cottages, a riverside path, and zero crowds.",
       "tips": "Walk down from the Dean Bridge for the iconic view. Continue along the Water of Leith Walkway toward Stockbridge for coffee."
+    },
+    {
+      "id": "act-dub-roeandco",
+      "name": "Roe & Co Distillery",
+      "city": "Dublin",
+      "category": "culture",
+      "priority": "if-time",
+      "pricePerPerson": 25,
+      "duration": "1.5 hours",
+      "bookingRequired": true,
+      "bookingUrl": "https://www.roeandcowhiskey.com",
+      "description": "Stunning distillery in the beautifully restored Guinness Power House building. Cocktail-focused experience — you blend your own whiskey and make cocktails rather than a traditional tasting tour.",
+      "tips": "More modern/interactive than Teeling. Great if you prefer cocktails over straight whiskey. The building alone is worth seeing."
+    },
+    {
+      "id": "act-gal-micil",
+      "name": "Micil Distillery",
+      "city": "Galway",
+      "category": "culture",
+      "priority": "if-time",
+      "pricePerPerson": 20,
+      "duration": "1 hour",
+      "bookingRequired": true,
+      "bookingUrl": "https://www.micildistillery.com",
+      "description": "Galway's first legal distillery in over 100 years. Small-batch poitín and gin made from a family recipe dating back to 1848. Intimate tours with tastings.",
+      "tips": "The poitín (traditional Irish spirit) is unique — you won't find this anywhere else. Also does cocktail masterclasses if you want something more hands-on."
+    },
+    {
+      "id": "act-edi-holyrood",
+      "name": "Holyrood Distillery",
+      "city": "Edinburgh",
+      "category": "culture",
+      "priority": "should-see",
+      "pricePerPerson": 25,
+      "duration": "1-1.5 hours",
+      "bookingRequired": true,
+      "bookingUrl": "https://www.holyrooddistillery.co.uk",
+      "description": "Edinburgh's first single malt whisky distillery in nearly 100 years, right next to Holyrood Palace. Beautiful modern space in a converted railway engine shed. Gin and whisky tours with tastings.",
+      "tips": "The whisky won't be fully mature yet (opened 2019) but they have excellent gin and new-make spirit. The building and process are fascinating. Combine with Arthur's Seat or Holyrood Palace."
     }
   ],
   "restaurants": [
@@ -647,6 +686,94 @@
       "avgPerPerson": 38,
       "description": "Over 400 whiskies and solid Scottish cooking on the Royal Mile. Live Scottish music most evenings.",
       "tips": "Try a whisky flight paired with food. Great atmosphere with live music. Ask the bar staff for whisky recommendations — they're passionate."
+    },
+    {
+      "id": "rest-dub-longhall",
+      "name": "The Long Hall",
+      "city": "Dublin",
+      "category": "pub",
+      "priceRange": "$",
+      "cuisine": "Traditional Victorian Pub",
+      "avgPerPerson": 15,
+      "description": "Stunning Victorian pub dating to 1766. Wood-paneled walls, antique mirrors, ornate chandeliers. Widely considered one of the best pints of Guinness in Dublin.",
+      "tips": "On South Great George's Street. Small and gets packed — arrive early evening for the best experience. Don't miss the snug."
+    },
+    {
+      "id": "rest-dub-mulligans",
+      "name": "Mulligan's of Poolbeg Street",
+      "city": "Dublin",
+      "category": "pub",
+      "priceRange": "$",
+      "cuisine": "Traditional Pub",
+      "avgPerPerson": 15,
+      "description": "250-year-old pub widely regarded as serving the best pint of Guinness in Dublin. No frills, no pretension — just a perfect pint in an authentic setting.",
+      "tips": "Cash preferred. No live music, no TVs — just conversation and Guinness the way it's meant to be. A Dublin institution."
+    },
+    {
+      "id": "rest-dub-odonoghues",
+      "name": "O'Donoghue's",
+      "city": "Dublin",
+      "category": "pub",
+      "priceRange": "$",
+      "cuisine": "Traditional Pub / Live Music",
+      "avgPerPerson": 15,
+      "description": "Where The Dubliners got their start. Live traditional Irish music most afternoons and evenings — fiddles, tin whistles, bodhráns. The real deal.",
+      "tips": "On Baggot Street. Sessions are spontaneous and authentic, not staged. The outdoor area is great in summer."
+    },
+    {
+      "id": "rest-gal-tighneachtain",
+      "name": "Tigh Neachtain",
+      "city": "Galway",
+      "category": "pub",
+      "priceRange": "$",
+      "cuisine": "Traditional Pub",
+      "avgPerPerson": 15,
+      "description": "Galway's most atmospheric pub, opened 1894. Beautiful old wooden paneling, dark cozy corners, memorabilia from times past. Corner of Cross Street and Quay Street.",
+      "tips": "The front bar is tiny and magical. Spills out onto the street in summer. Trad sessions most nights. The pub Galway locals love most."
+    },
+    {
+      "id": "rest-gal-crane",
+      "name": "The Crane Bar",
+      "city": "Galway",
+      "category": "pub",
+      "priceRange": "$",
+      "cuisine": "Traditional Pub / Live Music",
+      "avgPerPerson": 15,
+      "description": "The best live trad music venue in Galway — live sessions 7 nights a week both upstairs and downstairs. Intimate, authentic, and beloved by musicians.",
+      "tips": "Upstairs is where the serious sessions happen. Arrive early for a seat. Walking distance from the Latin Quarter on Sea Road."
+    },
+    {
+      "id": "rest-edi-bowbar",
+      "name": "The Bow Bar",
+      "city": "Edinburgh",
+      "category": "pub",
+      "priceRange": "$",
+      "cuisine": "Whisky Bar / Traditional Pub",
+      "avgPerPerson": 18,
+      "description": "Legendary whisky bar on West Bow with over 300 single malts, excellent cask ales, and no-nonsense pub atmosphere. Consistently voted one of Scotland's best pubs.",
+      "tips": "Order a dram and ask the bartender for a recommendation — they know their stuff. Simple food menu of pies and soups. No music, no TV — just whisky and conversation."
+    },
+    {
+      "id": "rest-edi-bennets",
+      "name": "Bennets Bar",
+      "city": "Edinburgh",
+      "category": "pub",
+      "priceRange": "$",
+      "cuisine": "Victorian Pub / Whisky",
+      "avgPerPerson": 18,
+      "description": "Gorgeous Victorian pub on Leven Street with ornate mirrors, decorative tiles, carved wooden pillars, and a massive malt whisky lineup. Feels like stepping into the 1890s.",
+      "tips": "Near the King's Theatre. One of the best-preserved Victorian pub interiors in Edinburgh. The stained glass and tilework are incredible."
+    },
+    {
+      "id": "rest-edi-coldtown",
+      "name": "Cold Town House",
+      "city": "Edinburgh",
+      "category": "pub",
+      "priceRange": "$$",
+      "cuisine": "Brewery / Beer Garden",
+      "avgPerPerson": 25,
+      "description": "Microbrewery and beer hall in Grassmarket with a rooftop terrace overlooking Edinburgh Castle. Fresh beer brewed on-site, wood-fired pizza, and one of the best views in the city.",
+      "tips": "The rooftop terrace is the main draw — come for sunset. Brewery tours available. Great craft beer selection beyond their own brews."
     }
   ]
 }
