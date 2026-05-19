@@ -1,0 +1,180 @@
+{
+  "bookingChecklist": [
+    {
+      "id": "bk-flights",
+      "item": "Flights (JFK→DUB + EDI→JFK)",
+      "urgency": "now",
+      "booked": false,
+      "notes": "JetBlue B6 841 & B6 72 — $782/person round-trip. Prices will go up as July approaches.",
+      "url": "https://www.jetblue.com"
+    },
+    {
+      "id": "bk-mid-flight",
+      "item": "Flight: Dublin → Edinburgh",
+      "urgency": "now",
+      "booked": false,
+      "notes": "Ryanair ($37-62) or Aer Lingus ($60-65). Ryanair charges extra for bags. Book for July 21.",
+      "url": "https://www.ryanair.com"
+    },
+    {
+      "id": "bk-hotels-dublin",
+      "item": "Hotel: Dublin (3 nights, Jul 15-18)",
+      "urgency": "now",
+      "booked": false,
+      "notes": "July is peak season. Good hotels sell out months ahead.",
+      "url": "https://www.expedia.com/Hotel-Search?destination=Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2"
+    },
+    {
+      "id": "bk-hotels-galway",
+      "item": "Hotel: Galway (3 nights, Jul 18-21)",
+      "urgency": "now",
+      "booked": false,
+      "notes": "Galway has fewer hotel options than Dublin — book early.",
+      "url": "https://www.expedia.com/Hotel-Search?destination=Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2"
+    },
+    {
+      "id": "bk-hotels-edinburgh-1",
+      "item": "Hotel: Edinburgh Part 1 (2 nights, Jul 21-23)",
+      "urgency": "now",
+      "booked": false,
+      "notes": "Check out morning of Jul 23 before Highlands tour departs. Ask hotel to store luggage while you're away. Edinburgh is expensive in July — book ASAP.",
+      "url": "https://www.expedia.com/Hotel-Search?destination=Edinburgh%2C%20Scotland&startDate=2026-07-21&endDate=2026-07-23&rooms=1&adults=2"
+    },
+    {
+      "id": "bk-hotels-edinburgh-2",
+      "item": "Hotel: Edinburgh Part 2 (1 night, Jul 24-25)",
+      "urgency": "now",
+      "booked": false,
+      "notes": "Check in after Highlands tour returns ~7pm. Same hotel as Part 1 if possible (your luggage is there). Fly out Jul 25 at 12:10 PM.",
+      "url": "https://www.expedia.com/Hotel-Search?destination=Edinburgh%2C%20Scotland&startDate=2026-07-24&endDate=2026-07-25&rooms=1&adults=2"
+    },
+    {
+      "id": "bk-highlands",
+      "item": "2-Day Highlands & Loch Ness Tour",
+      "urgency": "now",
+      "booked": false,
+      "notes": "Jul 23-24. Rabbie's ($189/person) or Haggis Adventures ($169/person). These sell out weeks ahead in summer. Includes overnight B&B.",
+      "url": "https://www.rabbies.com/en/edinburgh-tours/multi-day-tours/2-day-loch-ness-inverness-highlands"
+    },
+    {
+      "id": "bk-cliffs",
+      "item": "Cliffs of Moher Day Tour from Galway",
+      "urgency": "soon",
+      "booked": false,
+      "notes": "Jul 19. Galway Tour Company (~$40/person). Small-group tours sell out in peak season.",
+      "url": "https://www.galwaytourcompany.com"
+    },
+    {
+      "id": "bk-connemara",
+      "item": "Connemara or Aran Islands Day Trip",
+      "urgency": "soon",
+      "booked": false,
+      "notes": "Jul 20. Connemara tour (~$35/person) or Aran Islands ferry (~$30/person). Aran Islands is weather-dependent — have Connemara as backup.",
+      "url": "https://www.galwaytourcompany.com"
+    },
+    {
+      "id": "bk-kells",
+      "item": "Book of Kells / Trinity College",
+      "urgency": "soon",
+      "booked": false,
+      "notes": "Jul 16. Timed entry, $18/person. Morning slots are best. Often sells out in summer.",
+      "url": "https://www.tcd.ie/visitors/book-of-kells/"
+    },
+    {
+      "id": "bk-kilmainham",
+      "item": "Kilmainham Gaol",
+      "urgency": "soon",
+      "booked": false,
+      "notes": "$8/person. This is THE hardest ticket to get in Dublin — sells out weeks ahead. Book the moment tickets open.",
+      "url": "https://www.kilmainhamgaolmuseum.ie"
+    },
+    {
+      "id": "bk-castle",
+      "item": "Edinburgh Castle",
+      "urgency": "soon",
+      "booked": false,
+      "notes": "Jul 22. $19/person. Book a morning slot to beat the crowds.",
+      "url": "https://www.edinburghcastle.scot"
+    },
+    {
+      "id": "bk-guinness",
+      "item": "Guinness Storehouse",
+      "urgency": "soon",
+      "booked": false,
+      "notes": "Jul 16. $26/person. Book online for a discount. Optional — skip if not interested.",
+      "url": "https://www.guinness-storehouse.com"
+    },
+    {
+      "id": "bk-train",
+      "item": "Irish Rail: Dublin → Galway",
+      "urgency": "later",
+      "booked": false,
+      "notes": "Jul 18. ~$20/person. Book online for cheaper 'web fare' prices. Trains run hourly from Dublin Heuston.",
+      "url": "https://www.irishrail.ie"
+    },
+    {
+      "id": "bk-galway-bus",
+      "item": "Bus: Galway → Dublin Airport",
+      "urgency": "later",
+      "booked": false,
+      "notes": "Jul 21. ~$22/person. Citylink or GoBus. Book 1-2 weeks ahead. Allow 4+ hours before flight.",
+      "url": "https://www.citylink.ie"
+    },
+    {
+      "id": "bk-restaurants",
+      "item": "Restaurant reservations",
+      "urgency": "soon",
+      "booked": false,
+      "notes": "Book fine dining now: Chapter One (Dublin), The Kitchin (Edinburgh). Mid-range can wait 2-4 weeks. Kai in Galway — call to reserve.",
+      "url": null
+    },
+    {
+      "id": "bk-whisky",
+      "item": "Scotch Whisky Experience or Teeling Distillery",
+      "urgency": "later",
+      "booked": false,
+      "notes": "Optional. Can usually book a few days ahead or walk up.",
+      "url": "https://www.scotchwhiskyexperience.co.uk"
+    }
+  ],
+  "weather": {
+    "Dublin": {
+      "avgHigh": "65°F / 18°C",
+      "avgLow": "52°F / 11°C",
+      "rain": "Frequent light showers (14 rainy days avg)",
+      "daylight": "16+ hours (sunrise ~5am, sunset ~9:45pm)",
+      "note": "Pack layers. Irish summer is mild — t-shirt weather some days, jacket weather others. Rain is usually light but frequent."
+    },
+    "Galway": {
+      "avgHigh": "63°F / 17°C",
+      "avgLow": "50°F / 10°C",
+      "rain": "Wetter than Dublin (west coast catches Atlantic weather)",
+      "daylight": "16+ hours",
+      "note": "Galway gets more rain than Dublin. A good waterproof jacket is essential, especially for cliff walks and Aran Islands."
+    },
+    "Edinburgh": {
+      "avgHigh": "64°F / 18°C",
+      "avgLow": "50°F / 10°C",
+      "rain": "Drier than Ireland but still changeable",
+      "daylight": "17+ hours (sunrise ~4:30am, sunset ~9:45pm)",
+      "note": "Similar to Dublin. Highlands will be cooler — bring warm layers for the 2-day tour. Wind can be brisk at elevation."
+    }
+  },
+  "packingList": [
+    { "category": "Essentials", "items": ["Passport (valid 6+ months)", "Travel insurance docs", "Phone + charger", "UK/Ireland power adaptor (Type G — 3 flat prongs)", "Credit/debit cards (notify bank of travel)", "Copies of all bookings (digital + paper backup)"] },
+    { "category": "Clothing", "items": ["Waterproof jacket (non-negotiable)", "Layering pieces (fleece/sweater — even in July)", "Comfortable walking shoes (you'll walk 8-12 miles/day)", "Light hiking shoes for Howth, Arthur's Seat, Highlands", "One nice outfit for fine dining (Chapter One, The Kitchin)", "Rain pants or quick-dry pants for hiking days", "Sun hat + sunglasses (16+ hours of daylight)"] },
+    { "category": "Gear", "items": ["Daypack/backpack for daily excursions", "Small overnight bag for Highlands tour (leave main luggage at hotel)", "Reusable water bottle", "Umbrella (compact, windproof)", "Camera / phone with good camera"] },
+    { "category": "Health & Comfort", "items": ["Any medications (prescription + OTC)", "Motion sickness meds (ferries, winding Highland roads)", "Sunscreen (UV is strong even when cloudy)", "Blister pads/moleskin (for walking days)", "Earplugs + eye mask (jet lag + bright evenings)"] }
+  ],
+  "preTripChecklist": [
+    { "item": "Passports valid through Jan 2027+", "done": false, "notes": "US citizens don't need a visa for Ireland or UK (stays under 90 days)" },
+    { "item": "Travel insurance", "done": false, "notes": "Cover trip cancellation, medical, and baggage. Ireland/UK healthcare is not free for US visitors." },
+    { "item": "Phone plan — international data", "done": false, "notes": "Check if your carrier includes Ireland/UK data. T-Mobile includes it free. Otherwise buy a local SIM at Dublin Airport." },
+    { "item": "Notify bank/credit card of travel dates", "done": false, "notes": "Ireland uses EUR (€), UK/Scotland uses GBP (£). Cards are accepted almost everywhere." },
+    { "item": "Buy Type G power adaptors", "done": false, "notes": "Ireland and UK use the same plug type (3 flat rectangular prongs). Buy 2-3 adaptors. NOT the same as continental Europe." },
+    { "item": "Download offline maps", "done": false, "notes": "Google Maps or Apple Maps offline for Dublin, Galway, Edinburgh, and Highlands. Cell service is spotty in rural areas." },
+    { "item": "Book Leap Visitor Card (Dublin transport)", "done": false, "notes": "Covers DART, buses, Luas tram. Buy at Dublin Airport on arrival or pre-order online." },
+    { "item": "Register with STEP (Smart Traveler Enrollment Program)", "done": false, "notes": "US State Department travel enrollment. Free — helps embassy reach you in emergencies." },
+    { "item": "Print/save emergency numbers", "done": false, "notes": "Ireland emergency: 112 or 999. UK emergency: 999. US Embassy Dublin: +353 1 668 8777. US Consulate Edinburgh: +44 131 556 8315." }
+  ]
+}

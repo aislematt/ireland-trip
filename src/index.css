@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ireland: #169b62;
+  --color-ireland-light: #e8f5ee;
+  --color-scotland: #005eb8;
+  --color-scotland-light: #e6f0fa;
+  --color-gold: #f59e0b;
+  --color-heart: #ef4444;
+  --color-bg: #fafaf9;
+  --color-card: #ffffff;
+  --color-border: #e7e5e4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

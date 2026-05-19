@@ -1,0 +1,315 @@
+{
+  "cities": [
+    {
+      "city": "Dublin",
+      "nights": 3,
+      "checkIn": "2026-07-15",
+      "checkOut": "2026-07-18",
+      "hotels": [
+        {
+          "id": "htl-dub-003",
+          "name": "Anantara The Marker Dublin",
+          "tier": "mid",
+          "stars": 5,
+          "rating": 4.6,
+          "reviews": 3451,
+          "pricePerNight": 467,
+          "totalPrice": 1400,
+          "neighborhood": "Dublin City Centre (Docklands)",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Indoor pool",
+            "Spa"
+          ],
+          "description": "Chic hotel with contemporary quarters & an upscale restaurant, plus an indoor pool & a spa.",
+          "bookingUrl": "https://www.anantara.com/en/the-marker-dublin",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Anantara%20The%20Marker%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "imageAlt": "Anantara The Marker Dublin"
+        },
+        {
+          "id": "htl-dub-005",
+          "name": "Hyatt Centric The Liberties Dublin",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.6,
+          "reviews": 1833,
+          "pricePerNight": 402,
+          "totalPrice": 1207,
+          "neighborhood": "Dublin City Centre (The Liberties)",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Air conditioning",
+            "Fitness center"
+          ],
+          "description": "Contemporary hotel near Teeling Distillery and St Patrick's Cathedral, with a restaurant, bar & garden.",
+          "bookingUrl": "https://www.hyatt.com/hyatt-centric/en-US/dubct-hyatt-centric-the-liberties-dublin",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Hyatt%20Centric%20The%20Liberties%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "imageAlt": "Hyatt Centric The Liberties Dublin"
+        },
+        {
+          "id": "htl-dub-006",
+          "name": "The Dean Dublin",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.5,
+          "reviews": 2100,
+          "pricePerNight": 320,
+          "totalPrice": 960,
+          "neighborhood": "Dublin City Centre (Harcourt St)",
+          "highlights": [
+            "Free Wi-Fi",
+            "Rooftop restaurant",
+            "Air conditioning",
+            "Bar",
+            "Fitness center"
+          ],
+          "description": "Trendy boutique hotel with a rooftop restaurant (Sophie's) overlooking Dublin. Stylish rooms with record players.",
+          "bookingUrl": "https://www.thedean.ie",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=The%20Dean%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "imageAlt": "The Dean Dublin"
+        },
+        {
+          "id": "htl-dub-007",
+          "name": "Brooks Hotel",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.7,
+          "reviews": 1650,
+          "pricePerNight": 350,
+          "totalPrice": 1050,
+          "neighborhood": "Dublin City Centre (Drury St)",
+          "highlights": [
+            "Breakfast",
+            "Free Wi-Fi",
+            "Air conditioning",
+            "Bar",
+            "Restaurant"
+          ],
+          "description": "Boutique hotel on Drury Street steps from Grafton Street. Known for excellent service and a cozy library bar.",
+          "bookingUrl": "https://www.brookshotel.ie",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Brooks%20Hotel%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "imageAlt": "Brooks Hotel"
+        }
+      ]
+    },
+    {
+      "city": "Galway",
+      "nights": 3,
+      "checkIn": "2026-07-18",
+      "checkOut": "2026-07-21",
+      "hotels": [
+        {
+          "id": "htl-gal-001",
+          "name": "Park House Hotel",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.6,
+          "reviews": 2453,
+          "pricePerNight": 445,
+          "totalPrice": 1334,
+          "neighborhood": "Galway City Centre",
+          "highlights": [
+            "Breakfast",
+            "Free Wi-Fi",
+            "Free parking",
+            "Air conditioning",
+            "Bar"
+          ],
+          "description": "Elegant rooms & suites in a traditional hotel with an upscale restaurant and a carved-oak bar.",
+          "bookingUrl": "https://www.parkhousehotel.ie/?utm_source=mybusiness&utm_medium=organic",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Park%20House%20Hotel%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "imageAlt": "Park House Hotel"
+        },
+        {
+          "id": "htl-gal-002",
+          "name": "Sea Breeze Lodge B&B",
+          "tier": "mid",
+          "stars": 5,
+          "rating": 4.8,
+          "reviews": 129,
+          "pricePerNight": 355,
+          "totalPrice": 1064,
+          "neighborhood": "Galway City Centre",
+          "highlights": [
+            "Breakfast",
+            "Free Wi-Fi",
+            "Free parking",
+            "Smoke-free property"
+          ],
+          "description": "Stylish property with modern rooms, cooked breakfast and views of the bay, plus free Wi-Fi.",
+          "bookingUrl": "http://www.seabreezelodge.org/",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Sea%20Breeze%20Lodge%20B%26B%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "imageAlt": "Sea Breeze Lodge B&B"
+        },
+        {
+          "id": "htl-gal-003",
+          "name": "Radisson RED Galway",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.6,
+          "reviews": 301,
+          "pricePerNight": 374,
+          "totalPrice": 1121,
+          "neighborhood": "Galway City Centre",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Free parking",
+            "Air conditioning",
+            "Fitness center"
+          ],
+          "description": "",
+          "bookingUrl": "https://www.radissonhotels.com/en-us/hotels/radisson-red-galway?cid=a:se+b:gmb+c:emea+i:local+e:rdr+d:ukirwe+h:IEGWYAAA",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Radisson%20RED%20Galway%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "imageAlt": "Radisson RED Galway"
+        },
+        {
+          "id": "htl-gal-005",
+          "name": "Menlo Park Hotel",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.4,
+          "reviews": 2161,
+          "pricePerNight": 258,
+          "totalPrice": 773,
+          "neighborhood": "Galway City Centre",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Free parking",
+            "Air conditioning",
+            "Bar"
+          ],
+          "description": "Classic, upscale rooms, plus a stylish restaurant and a casual, modern bar with a pizza menu.",
+          "bookingUrl": "http://www.menloparkhotel.com/",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Menlo%20Park%20Hotel%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "imageAlt": "Menlo Park Hotel"
+        }
+      ]
+    },
+    {
+      "city": "Edinburgh",
+      "nights": 3,
+      "checkIn": "2026-07-21",
+      "checkOut": "2026-07-25",
+      "note": "3 nights split as 2+1: Jul 21-23 (check out before Highlands tour) + Jul 24-25 (check back in after tour returns ~7pm). Book two separate reservations at the same hotel, or ask the hotel to hold luggage during the gap night.",
+      "hotels": [
+        {
+          "id": "htl-edi-002",
+          "name": "Wilde Aparthotels, Edinburgh, Grassmarket",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.7,
+          "reviews": 2000,
+          "pricePerNight": 379,
+          "totalPrice": 1137,
+          "neighborhood": "Edinburgh City Centre",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Air conditioning",
+            "Pet-friendly",
+            "Fitness center"
+          ],
+          "description": "Sleek units, some featuring balconies & castle views, in an upscale apartment hotel offering a cafe.",
+          "bookingUrl": "https://www.wilde.com/edinburgh/grassmarket/?utm_source=google&utm_medium=Organic&utm_campaign=googlemybusiness_edinburgh_grassmarket",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Wilde%20Aparthotels%2C%20Edinburgh%2C%20Grassmarket%2C%20Edinburgh%2C%20Scotland%2C%20United%20Kingdom&startDate=2026-07-21&endDate=2026-07-25&rooms=1&adults=2",
+          "imageAlt": "Wilde Aparthotels, Edinburgh, Grassmarket"
+        },
+        {
+          "id": "htl-edi-003",
+          "name": "Market Street hotel",
+          "tier": "luxury",
+          "stars": 4,
+          "rating": 4.7,
+          "reviews": 832,
+          "pricePerNight": 453,
+          "totalPrice": 1359,
+          "neighborhood": "Edinburgh City Centre",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Air conditioning",
+            "Bar",
+            "Restaurant"
+          ],
+          "description": "Hip quarters with complimentary Wi-Fi in a chic hotel featuring a rooftop champagne bar.",
+          "bookingUrl": "https://www.marketstreethotel.co.uk/?utm_source=google_my_business&utm_medium=google_web_link&utm_campaign=google_my_business&utm_term=market_street_hotel&utm_content=market_street_hotel_homepage",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Market%20Street%20hotel%2C%20Edinburgh%2C%20Scotland%2C%20United%20Kingdom&startDate=2026-07-21&endDate=2026-07-25&rooms=1&adults=2",
+          "imageAlt": "Market Street hotel"
+        },
+        {
+          "id": "htl-edi-005",
+          "name": "The Rutland Hotel & Luxury Apartments",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.7,
+          "reviews": 431,
+          "pricePerNight": 395,
+          "totalPrice": 1185,
+          "neighborhood": "Edinburgh City Centre",
+          "highlights": [
+            "Breakfast",
+            "Free Wi-Fi",
+            "Air conditioning",
+            "Pet-friendly",
+            "Bar"
+          ],
+          "description": "Upscale hotel offering stylish rooms & apartments, plus a chic bar & a buzzy steakhouse.",
+          "bookingUrl": "https://www.therutlandhotel.com/",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=The%20Rutland%20Hotel%20%26%20Luxury%20Apartments%2C%20Edinburgh%2C%20Scotland%2C%20United%20Kingdom&startDate=2026-07-21&endDate=2026-07-25&rooms=1&adults=2",
+          "imageAlt": "The Rutland Hotel & Luxury Apartments"
+        },
+        {
+          "id": "htl-edi-006",
+          "name": "Apex Grassmarket Hotel",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.6,
+          "reviews": 3200,
+          "pricePerNight": 310,
+          "totalPrice": 930,
+          "neighborhood": "Edinburgh Old Town (Grassmarket)",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Indoor pool",
+            "Air conditioning",
+            "Fitness center"
+          ],
+          "description": "Modern hotel in the historic Grassmarket with indoor pool, gym, and views of Edinburgh Castle.",
+          "bookingUrl": "https://www.apexhotels.co.uk/apex-grassmarket-hotel",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Apex%20Grassmarket%20Hotel%2C%20Edinburgh%2C%20Scotland%2C%20United%20Kingdom&startDate=2026-07-21&endDate=2026-07-25&rooms=1&adults=2",
+          "imageAlt": "Apex Grassmarket Hotel"
+        },
+        {
+          "id": "htl-edi-007",
+          "name": "Leonardo Royal Hotel Edinburgh Haymarket",
+          "tier": "mid",
+          "stars": 4,
+          "rating": 4.5,
+          "reviews": 2800,
+          "pricePerNight": 270,
+          "totalPrice": 810,
+          "neighborhood": "Edinburgh (Haymarket)",
+          "highlights": [
+            "Breakfast ($)",
+            "Free Wi-Fi",
+            "Parking ($)",
+            "Air conditioning",
+            "Bar"
+          ],
+          "description": "Well-located hotel near Haymarket station with spacious rooms. 10-minute walk to Edinburgh Castle and Old Town.",
+          "bookingUrl": "https://www.leonardo-hotels.com/edinburgh/leonardo-royal-hotel-edinburgh-haymarket",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Leonardo%20Royal%20Hotel%20Edinburgh%20Haymarket%2C%20Edinburgh%2C%20Scotland%2C%20United%20Kingdom&startDate=2026-07-21&endDate=2026-07-25&rooms=1&adults=2",
+          "imageAlt": "Leonardo Royal Hotel Edinburgh Haymarket"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-05-19"
+}

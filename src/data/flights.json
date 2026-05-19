@@ -1,0 +1,275 @@
+{
+  "legs": [
+    {
+      "id": "leg-outbound",
+      "label": "NYC to Dublin",
+      "from": "New York",
+      "to": "Dublin",
+      "options": [
+        {
+          "id": "flt-out-001",
+          "airline": "JetBlue",
+          "from": "JFK",
+          "to": "DUB",
+          "departTime": "21:06",
+          "arriveTime": "09:00+1",
+          "duration": "6h 54m",
+          "stops": 0,
+          "prices": {
+            "2026-07-01": 479,
+            "2026-07-03": 485,
+            "2026-07-05": 444,
+            "2026-07-08": 444,
+            "2026-07-10": 444,
+            "2026-07-13": 444,
+            "2026-07-15": 444,
+            "2026-07-17": 444,
+            "2026-07-20": 444,
+            "2026-07-22": 444
+          },
+          "notes": "Direct nonstop.",
+          "bookingUrl": "https://www.jetblue.com"
+        },
+        {
+          "id": "flt-out-002",
+          "airline": "Delta",
+          "from": "JFK",
+          "to": "DUB",
+          "departTime": "21:30",
+          "arriveTime": "09:15+1",
+          "duration": "6h 45m",
+          "stops": 0,
+          "prices": {
+            "2026-07-01": 516,
+            "2026-07-03": 439,
+            "2026-07-05": 444,
+            "2026-07-08": 444,
+            "2026-07-10": 444,
+            "2026-07-13": 444,
+            "2026-07-15": 444,
+            "2026-07-17": 444,
+            "2026-07-20": 444,
+            "2026-07-22": 444
+          },
+          "notes": "Direct nonstop.",
+          "bookingUrl": "https://www.delta.com"
+        },
+        {
+          "id": "flt-out-003",
+          "airline": "JetBlue",
+          "from": "JFK",
+          "to": "DUB",
+          "departTime": "17:15",
+          "arriveTime": "08:20+1",
+          "duration": "10h 5m",
+          "stops": 1,
+          "layovers": [
+            "Boston Logan International Airport (139min)"
+          ],
+          "prices": {
+            "2026-07-01": 443,
+            "2026-07-03": 443,
+            "2026-07-05": 448,
+            "2026-07-08": 448,
+            "2026-07-10": 448,
+            "2026-07-13": 448,
+            "2026-07-15": 448,
+            "2026-07-20": 448,
+            "2026-07-22": 448
+          },
+          "notes": "1 stop: Boston Logan International Airport (139min)",
+          "bookingUrl": "https://www.jetblue.com"
+        },
+        {
+          "id": "flt-out-004",
+          "airline": "Aer Lingus",
+          "from": "JFK",
+          "to": "DUB",
+          "departTime": "16:55",
+          "arriveTime": "04:30+1",
+          "duration": "6h 35m",
+          "stops": 0,
+          "prices": {
+            "2026-07-01": 646,
+            "2026-07-03": 585,
+            "2026-07-05": 602,
+            "2026-07-08": 624,
+            "2026-07-10": 624,
+            "2026-07-13": 550,
+            "2026-07-15": 602,
+            "2026-07-17": 624
+          },
+          "notes": "Direct nonstop.",
+          "bookingUrl": "https://www.aerlingus.com"
+        }
+      ]
+    },
+    {
+      "id": "leg-mid",
+      "label": "Dublin to Edinburgh",
+      "from": "Dublin",
+      "to": "Edinburgh",
+      "options": [
+        {
+          "id": "flt-mid-001",
+          "airline": "Ryanair",
+          "from": "DUB",
+          "to": "EDI",
+          "departTime": "06:20",
+          "arriveTime": "07:30",
+          "duration": "1h 10m",
+          "stops": 0,
+          "prices": {
+            "2026-07-06": 48,
+            "2026-07-08": 39,
+            "2026-07-11": 54,
+            "2026-07-13": 62,
+            "2026-07-15": 37,
+            "2026-07-18": 55,
+            "2026-07-20": 46,
+            "2026-07-22": 44,
+            "2026-07-25": 53
+          },
+          "notes": "Direct nonstop.",
+          "bookingUrl": "https://www.ryanair.com"
+        },
+        {
+          "id": "flt-mid-002",
+          "airline": "Aer Lingus",
+          "from": "DUB",
+          "to": "EDI",
+          "departTime": "18:30",
+          "arriveTime": "19:50",
+          "duration": "1h 20m",
+          "stops": 0,
+          "prices": {
+            "2026-07-06": 60,
+            "2026-07-08": 60,
+            "2026-07-11": 61,
+            "2026-07-13": 60,
+            "2026-07-15": 61,
+            "2026-07-18": 61,
+            "2026-07-20": 60,
+            "2026-07-22": 60,
+            "2026-07-25": 65
+          },
+          "notes": "Direct nonstop.",
+          "bookingUrl": "https://www.aerlingus.com"
+        }
+      ]
+    },
+    {
+      "id": "leg-return",
+      "label": "Edinburgh to NYC",
+      "from": "Edinburgh",
+      "to": "New York",
+      "options": [
+        {
+          "id": "flt-ret-001",
+          "airline": "JetBlue",
+          "from": "EDI",
+          "to": "JFK",
+          "departTime": "12:10",
+          "arriveTime": "14:57",
+          "duration": "7h 47m",
+          "stops": 0,
+          "prices": {
+            "2026-07-12": 802,
+            "2026-07-15": 776,
+            "2026-07-17": 816,
+            "2026-07-20": 776,
+            "2026-07-22": 776,
+            "2026-07-25": 816,
+            "2026-07-27": 776,
+            "2026-07-29": 776,
+            "2026-07-31": 816
+          },
+          "notes": "Direct nonstop.",
+          "bookingUrl": "https://www.jetblue.com"
+        },
+        {
+          "id": "flt-ret-002",
+          "airline": "American",
+          "from": "EDI",
+          "to": "JFK",
+          "departTime": "10:30",
+          "arriveTime": "13:15",
+          "duration": "7h 45m",
+          "stops": 0,
+          "prices": {
+            "2026-07-12": 1063,
+            "2026-07-15": 728,
+            "2026-07-17": 857,
+            "2026-07-20": 728,
+            "2026-07-22": 728,
+            "2026-07-25": 857,
+            "2026-07-27": 800,
+            "2026-07-29": 728,
+            "2026-07-31": 784
+          },
+          "notes": "Direct nonstop.",
+          "bookingUrl": "https://www.aa.com"
+        },
+        {
+          "id": "flt-ret-003",
+          "airline": "British Airways",
+          "from": "EDI",
+          "to": "JFK",
+          "departTime": "21:15",
+          "arriveTime": "11:10+1",
+          "duration": "18h 55m",
+          "stops": 1,
+          "layovers": [
+            "Heathrow Airport (585min)"
+          ],
+          "prices": {
+            "2026-07-12": 575,
+            "2026-07-15": 1001,
+            "2026-07-17": 914,
+            "2026-07-20": 1001,
+            "2026-07-22": 815,
+            "2026-07-25": 856,
+            "2026-07-27": 745,
+            "2026-07-29": 950,
+            "2026-07-31": 1015
+          },
+          "notes": "1 stop: Heathrow Airport (585min)",
+          "bookingUrl": "https://www.britishairways.com"
+        },
+        {
+          "id": "flt-ret-004",
+          "airline": "Aer Lingus",
+          "from": "EDI",
+          "to": "JFK",
+          "departTime": "08:35",
+          "arriveTime": "13:40",
+          "duration": "10h 5m",
+          "stops": 1,
+          "layovers": [
+            "Dublin Airport (80min)"
+          ],
+          "prices": {
+            "2026-07-12": 812,
+            "2026-07-15": 1044,
+            "2026-07-20": 980,
+            "2026-07-22": 836,
+            "2026-07-25": 1237,
+            "2026-07-29": 916,
+            "2026-07-31": 1182
+          },
+          "notes": "1 stop: Dublin Airport (80min)",
+          "bookingUrl": "https://www.aerlingus.com"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    "Tuesdays and Wednesdays are typically cheapest for transatlantic flights",
+    "Booking 2-3 months ahead usually gets the best prices for summer",
+    "Prices shown are from Google Flights and may vary — click through to book",
+    "Consider one-way tickets — mixing airlines can save money",
+    "Aer Lingus offers US preclearance in Dublin, saving time on arrival",
+    "Ryanair charges extra for checked bags and seat selection"
+  ],
+  "lastUpdated": "2026-05-19"
+}

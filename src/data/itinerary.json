@@ -1,0 +1,171 @@
+{
+  "trip": {
+    "name": "Ireland & Scotland",
+    "duration": "11 days / 10 nights",
+    "month": "July 2026",
+    "startDate": "2026-07-14",
+    "endDate": "2026-07-25",
+    "travelers": 2,
+    "style": "Cities, culture & food + dramatic nature",
+    "transport": "Trains, flights, guided tours (no driving)"
+  },
+  "selectedFlights": {
+    "outbound": {
+      "airline": "JetBlue",
+      "flight": "B6 841",
+      "from": "JFK",
+      "to": "DUB",
+      "date": "2026-07-14",
+      "depart": "9:04 PM",
+      "arrive": "9:00 AM+1",
+      "duration": "6h 56m",
+      "stops": 0,
+      "pricePerPerson": 782,
+      "fareClass": "Blue Basic",
+      "note": "Round-trip price with return (EDI→JFK)"
+    },
+    "return": {
+      "airline": "JetBlue",
+      "flight": "B6 72",
+      "from": "EDI",
+      "to": "JFK",
+      "date": "2026-07-25",
+      "depart": "12:10 PM",
+      "arrive": "2:57 PM",
+      "duration": "7h 47m",
+      "stops": 0,
+      "pricePerPerson": null,
+      "fareClass": "Blue Basic",
+      "note": "Included in round-trip price"
+    },
+    "totalPerPerson": 782,
+    "fareOptions": {
+      "Blue Basic": { "price": 782, "checkedBag": "$170", "seatSelection": "Fee", "changes": "No" },
+      "Blue": { "price": 982, "checkedBag": "Free", "seatSelection": "Free", "changes": "Free" },
+      "Blue Extra": { "price": 1032, "checkedBag": "Free", "seatSelection": "Free", "changes": "Free" }
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-07-14",
+      "dayOfWeek": "Tuesday",
+      "city": "In Transit",
+      "country": "ireland",
+      "label": "Fly NYC to Dublin",
+      "summary": "JetBlue B6 841 departing JFK at 9:04 PM. Arrive Dublin 9:00 AM Wednesday.",
+      "activities": [],
+      "icon": "plane"
+    },
+    {
+      "day": 2,
+      "date": "2026-07-15",
+      "dayOfWeek": "Wednesday",
+      "city": "Dublin",
+      "country": "ireland",
+      "label": "Arrive & Explore Dublin",
+      "summary": "Land 9:00 AM. Taxi/Aircoach to hotel. Easy walk through St Stephen's Green and Georgian streets. Jet-lag recovery day.",
+      "activities": ["act-dub-stephens", "act-dub-merrion"],
+      "icon": "city"
+    },
+    {
+      "day": 3,
+      "date": "2026-07-16",
+      "dayOfWeek": "Thursday",
+      "city": "Dublin",
+      "country": "ireland",
+      "label": "Dublin: History & Culture",
+      "summary": "Trinity College, Book of Kells, Chester Beatty Library, optional Guinness Storehouse.",
+      "activities": ["act-dub-trinity", "act-dub-chester", "act-dub-guinness"],
+      "icon": "culture"
+    },
+    {
+      "day": 4,
+      "date": "2026-07-17",
+      "dayOfWeek": "Friday",
+      "city": "Dublin",
+      "country": "ireland",
+      "label": "Dublin: Howth Coastal Day Trip",
+      "summary": "DART train to Howth, cliff walk loop, seafood lunch, optional distillery tour.",
+      "activities": ["act-dub-howth", "act-dub-teeling"],
+      "icon": "nature"
+    },
+    {
+      "day": 5,
+      "date": "2026-07-18",
+      "dayOfWeek": "Saturday",
+      "city": "Galway",
+      "country": "ireland",
+      "label": "Train to Galway",
+      "summary": "Morning train Dublin → Galway (~2.5 hrs). Walk the Latin Quarter, Spanish Arch, live music at night.",
+      "activities": ["act-transport-train", "act-gal-latin", "act-gal-music"],
+      "icon": "train"
+    },
+    {
+      "day": 6,
+      "date": "2026-07-19",
+      "dayOfWeek": "Sunday",
+      "city": "Galway",
+      "country": "ireland",
+      "label": "Cliffs of Moher & Burren",
+      "summary": "Full-day guided tour to the Cliffs of Moher and the Burren limestone landscape.",
+      "activities": ["act-gal-cliffs"],
+      "icon": "nature"
+    },
+    {
+      "day": 7,
+      "date": "2026-07-20",
+      "dayOfWeek": "Monday",
+      "city": "Galway",
+      "country": "ireland",
+      "label": "Connemara or Aran Islands",
+      "summary": "Choose between Connemara National Park tour or Aran Islands ferry day trip.",
+      "activities": ["act-gal-connemara", "act-gal-aran"],
+      "icon": "nature"
+    },
+    {
+      "day": 8,
+      "date": "2026-07-21",
+      "dayOfWeek": "Tuesday",
+      "city": "Edinburgh",
+      "country": "scotland",
+      "label": "Galway → Dublin Airport → Edinburgh",
+      "summary": "Early bus Galway → Dublin Airport (Citylink, ~3h 15m, book at citylink.ie). Fly DUB → EDI (~1h 10m, Ryanair or Aer Lingus). Arrive Edinburgh, check in. Explore the Royal Mile and historic closes.",
+      "activities": ["act-transport-galway-dublin-bus", "act-edi-royalmile"],
+      "icon": "plane"
+    },
+    {
+      "day": 9,
+      "date": "2026-07-22",
+      "dayOfWeek": "Wednesday",
+      "city": "Edinburgh",
+      "country": "scotland",
+      "label": "Edinburgh: Castle & City",
+      "summary": "Edinburgh Castle, walk the Royal Mile, St Giles' Cathedral, National Museum or Arthur's Seat.",
+      "activities": ["act-edi-castle", "act-edi-stgiles", "act-edi-museum", "act-edi-arthurs"],
+      "icon": "culture"
+    },
+    {
+      "day": 10,
+      "date": "2026-07-23",
+      "dayOfWeek": "Thursday",
+      "city": "Highlands",
+      "country": "scotland",
+      "label": "Scottish Highlands Day 1",
+      "summary": "Check out of Edinburgh hotel (ask them to store main luggage). 2-day small-group tour departs ~8:45am. Cairngorms National Park, Loch Morlich, Inverness. Overnight in a Highland B&B (included in tour price). Bring just an overnight bag.",
+      "activities": ["act-edi-highlands"],
+      "icon": "nature"
+    },
+    {
+      "day": 11,
+      "date": "2026-07-24",
+      "dayOfWeek": "Friday",
+      "city": "Edinburgh",
+      "country": "scotland",
+      "label": "Highlands Day 2 & Final Evening",
+      "summary": "Tour continues: Loch Ness, Glencoe, Great Glen, return to Edinburgh ~7pm. Check back into hotel, collect stored luggage. Last dinner in Scotland. Fly home tomorrow (JetBlue B6 72 at 12:10 PM from EDI).",
+      "activities": ["act-edi-highlands"],
+      "icon": "nature"
+    }
+  ]
+}
