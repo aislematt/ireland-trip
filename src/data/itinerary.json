@@ -116,12 +116,12 @@
       "day": 7,
       "date": "2026-07-20",
       "dayOfWeek": "Monday",
-      "city": "Galway",
-      "country": "ireland",
-      "label": "Connemara or Aran Islands",
-      "summary": "Choose between Connemara National Park tour or Aran Islands ferry day trip.",
-      "activities": ["act-gal-connemara", "act-gal-aran"],
-      "icon": "nature"
+      "city": "Edinburgh",
+      "country": "scotland",
+      "label": "Galway → Shannon → Edinburgh",
+      "summary": "Relaxed morning in Galway — last walk, breakfast, pack up. Afternoon bus to Shannon Airport (Bus Eireann, ~1h 45m, depart ~1:30pm). Ryanair FR1676 departs 4:00pm, arrive Edinburgh ~5:15pm. Taxi to city centre by ~6pm. Check into hotel, evening stroll on the Royal Mile.",
+      "activities": ["act-transport-galway-shannon-bus", "act-edi-royalmile"],
+      "icon": "plane"
     },
     {
       "day": 8,
@@ -129,10 +129,10 @@
       "dayOfWeek": "Tuesday",
       "city": "Edinburgh",
       "country": "scotland",
-      "label": "Galway → Dublin Airport → Edinburgh",
-      "summary": "Early bus Galway → Dublin Airport (Citylink, ~3h 15m, book at citylink.ie). Fly DUB → EDI (~1h 10m, Ryanair or Aer Lingus). Arrive Edinburgh, check in. Explore the Royal Mile and historic closes.",
-      "activities": ["act-transport-galway-dublin-bus", "act-edi-royalmile"],
-      "icon": "plane"
+      "label": "Edinburgh: Castle & City",
+      "summary": "Edinburgh Castle, walk the Royal Mile, St Giles' Cathedral, National Museum or Arthur's Seat.",
+      "activities": ["act-edi-castle", "act-edi-stgiles", "act-edi-museum", "act-edi-arthurs"],
+      "icon": "culture"
     },
     {
       "day": 9,
@@ -140,10 +140,10 @@
       "dayOfWeek": "Wednesday",
       "city": "Edinburgh",
       "country": "scotland",
-      "label": "Edinburgh: Castle & City",
-      "summary": "Edinburgh Castle, walk the Royal Mile, St Giles' Cathedral, National Museum or Arthur's Seat.",
-      "activities": ["act-edi-castle", "act-edi-stgiles", "act-edi-museum", "act-edi-arthurs"],
-      "icon": "culture"
+      "label": "Edinburgh: Explore & Distilleries",
+      "summary": "Flexible day — Palestine Museum, Holyrood Distillery, Dean Village walk, Calton Hill at sunset. Or just wander and soak up the city at your own pace.",
+      "activities": ["act-edi-palestine-museum", "act-edi-holyrood", "act-edi-dean-village", "act-edi-calton-hill"],
+      "icon": "city"
     },
     {
       "day": 10,

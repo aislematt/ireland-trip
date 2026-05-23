@@ -10,11 +10,11 @@
     },
     {
       "id": "bk-mid-flight",
-      "item": "Flight: Dublin → Edinburgh",
+      "item": "Flight: Shannon → Edinburgh (Ryanair FR1676)",
       "urgency": "now",
       "booked": false,
-      "notes": "Ryanair ($37-62) or Aer Lingus ($60-65). Ryanair charges extra for bags. Book for July 21.",
-      "url": "https://www.ryanair.com"
+      "notes": "Ryanair FR1676, Jul 20, departs Shannon 4:00pm → Edinburgh 5:15pm. Book at ryanair.com. Ryanair charges extra for checked bags ($25-40).",
+      "url": "https://www.ryanair.com/flights/gb/en/flights-from-shannon-to-edinburgh"
     },
     {
       "id": "bk-hotels-dublin",
@@ -26,19 +26,19 @@
     },
     {
       "id": "bk-hotels-galway",
-      "item": "Hotel: Galway (3 nights, Jul 18-21)",
+      "item": "Hotel: Galway (2 nights, Jul 18-20)",
       "urgency": "now",
       "booked": false,
-      "notes": "Galway has fewer hotel options than Dublin — book early.",
-      "url": "https://www.expedia.com/Hotel-Search?destination=Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2"
+      "notes": "Galway has fewer hotel options than Dublin — book early. Check out Jul 20 morning, bus to Shannon for 4pm flight.",
+      "url": "https://www.expedia.com/Hotel-Search?destination=Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-20&rooms=1&adults=2"
     },
     {
       "id": "bk-hotels-edinburgh-1",
-      "item": "Hotel: Edinburgh Part 1 (2 nights, Jul 21-23)",
+      "item": "Hotel: Edinburgh Part 1 (3 nights, Jul 20-23)",
       "urgency": "now",
       "booked": false,
-      "notes": "Check out morning of Jul 23 before Highlands tour departs. Ask hotel to store luggage while you're away. Edinburgh is expensive in July — book ASAP.",
-      "url": "https://www.expedia.com/Hotel-Search?destination=Edinburgh%2C%20Scotland&startDate=2026-07-21&endDate=2026-07-23&rooms=1&adults=2"
+      "notes": "Arrive ~6pm Jul 20 from Shannon flight. Check out morning Jul 23 before Highlands tour. Ask hotel to store luggage while away. Edinburgh is expensive in July — book ASAP.",
+      "url": "https://www.expedia.com/Hotel-Search?destination=Edinburgh%2C%20Scotland&startDate=2026-07-20&endDate=2026-07-23&rooms=1&adults=2"
     },
     {
       "id": "bk-hotels-edinburgh-2",
@@ -114,11 +114,11 @@
     },
     {
       "id": "bk-galway-bus",
-      "item": "Bus: Galway → Dublin Airport",
+      "item": "Bus: Galway → Shannon Airport",
       "urgency": "later",
       "booked": false,
-      "notes": "Jul 21. ~$22/person. Citylink or GoBus. Book 1-2 weeks ahead. Allow 4+ hours before flight.",
-      "url": "https://www.citylink.ie"
+      "notes": "Jul 20. ~$12/person. Bus Eireann from Galway Coach Station. Depart ~1:30pm for 4pm Ryanair flight. Only 1h 45min ride.",
+      "url": "https://www.buseireann.ie"
     },
     {
       "id": "bk-restaurants",

@@ -278,7 +278,7 @@
     },
     {
       "id": "act-transport-galway-shannon-bus",
-      "name": "Bus: Galway → Shannon Airport (alternative)",
+      "name": "Bus: Galway → Shannon Airport",
       "city": "Galway",
       "category": "transport",
       "priority": "transport",
@@ -286,8 +286,8 @@
       "duration": "1h 45min",
       "bookingRequired": false,
       "bookingUrl": "https://www.buseireann.ie",
-      "description": "Bus Eireann route from Galway to Shannon Airport. Shorter trip but fewer flight options from Shannon to Edinburgh.",
-      "tips": "Only useful if you find a good Shannon→Edinburgh flight (Ryanair runs this route but not daily). Dublin Airport has many more options."
+      "description": "Bus Eireann route from Galway to Shannon Airport. Much shorter than the 3h 15m bus to Dublin Airport. Depart Galway ~1:30pm for the 4pm Ryanair flight.",
+      "tips": "Departs from Galway Coach Station (Ceannt Station, near Eyre Square). Book online for best price. Shannon is a tiny airport — security is quick."
     },
     {
       "id": "act-transport-dart",

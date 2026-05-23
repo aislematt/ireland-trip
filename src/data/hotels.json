@@ -98,9 +98,9 @@
     },
     {
       "city": "Galway",
-      "nights": 3,
+      "nights": 2,
       "checkIn": "2026-07-18",
-      "checkOut": "2026-07-21",
+      "checkOut": "2026-07-20",
       "hotels": [
         {
           "id": "htl-gal-001",
@@ -110,7 +110,7 @@
           "rating": 4.6,
           "reviews": 2453,
           "pricePerNight": 445,
-          "totalPrice": 1334,
+          "totalPrice": 890,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast",
@@ -132,7 +132,7 @@
           "rating": 4.8,
           "reviews": 129,
           "pricePerNight": 355,
-          "totalPrice": 1064,
+          "totalPrice": 710,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast",
@@ -153,7 +153,7 @@
           "rating": 4.6,
           "reviews": 301,
           "pricePerNight": 374,
-          "totalPrice": 1121,
+          "totalPrice": 748,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast ($)",
@@ -175,7 +175,7 @@
           "rating": 4.4,
           "reviews": 2161,
           "pricePerNight": 258,
-          "totalPrice": 773,
+          "totalPrice": 516,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast ($)",
@@ -193,10 +193,10 @@
     },
     {
       "city": "Edinburgh",
-      "nights": 3,
-      "checkIn": "2026-07-21",
+      "nights": 4,
+      "checkIn": "2026-07-20",
       "checkOut": "2026-07-25",
-      "note": "3 nights split as 2+1: Jul 21-23 (check out before Highlands tour) + Jul 24-25 (check back in after tour returns ~7pm). Book two separate reservations at the same hotel, or ask the hotel to hold luggage during the gap night.",
+      "note": "4 nights split as 3+1: Jul 20-23 (check out morning Jul 23 before Highlands tour) + Jul 24-25 (check back in after tour returns ~7pm). Book two separate reservations at the same hotel, or ask the hotel to hold luggage during the gap night.",
       "hotels": [
         {
           "id": "htl-edi-002",
@@ -206,7 +206,7 @@
           "rating": 4.7,
           "reviews": 2000,
           "pricePerNight": 379,
-          "totalPrice": 1137,
+          "totalPrice": 1516,
           "neighborhood": "Edinburgh City Centre",
           "highlights": [
             "Breakfast ($)",
@@ -228,7 +228,7 @@
           "rating": 4.7,
           "reviews": 832,
           "pricePerNight": 453,
-          "totalPrice": 1359,
+          "totalPrice": 1812,
           "neighborhood": "Edinburgh City Centre",
           "highlights": [
             "Breakfast ($)",
@@ -250,7 +250,7 @@
           "rating": 4.7,
           "reviews": 431,
           "pricePerNight": 395,
-          "totalPrice": 1185,
+          "totalPrice": 1580,
           "neighborhood": "Edinburgh City Centre",
           "highlights": [
             "Breakfast",
@@ -272,7 +272,7 @@
           "rating": 4.6,
           "reviews": 3200,
           "pricePerNight": 310,
-          "totalPrice": 930,
+          "totalPrice": 1240,
           "neighborhood": "Edinburgh Old Town (Grassmarket)",
           "highlights": [
             "Breakfast ($)",
@@ -294,7 +294,7 @@
           "rating": 4.5,
           "reviews": 2800,
           "pricePerNight": 270,
-          "totalPrice": 810,
+          "totalPrice": 1080,
           "neighborhood": "Edinburgh (Haymarket)",
           "highlights": [
             "Breakfast ($)",

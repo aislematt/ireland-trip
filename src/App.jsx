@@ -55,7 +55,7 @@ export default function App() {
           <h2 className="text-4xl font-bold text-stone-800 mb-2">
             <span className="text-ireland">Ireland</span> & <span className="text-scotland">Scotland</span>
           </h2>
-          <p className="text-lg text-stone-500">July 14&ndash;26, 2026 &middot; 12 Days</p>
+          <p className="text-lg text-stone-500">July 14&ndash;25, 2026 &middot; 11 Days</p>
           <p className="text-sm text-stone-400 mt-1">NYC &rarr; Dublin &rarr; Galway &rarr; Edinburgh &rarr; NYC</p>
           <div className="flex justify-center gap-6 mt-4 text-sm text-stone-500">
             <span>Cities & Culture</span>
