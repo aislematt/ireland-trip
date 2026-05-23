@@ -3,8 +3,8 @@
     {
       "city": "Dublin",
       "nights": 3,
-      "checkIn": "2026-07-15",
-      "checkOut": "2026-07-18",
+      "checkIn": "2026-07-14",
+      "checkOut": "2026-07-17",
       "hotels": [
         {
           "id": "htl-dub-003",
@@ -25,7 +25,7 @@
           ],
           "description": "Chic hotel with contemporary quarters & an upscale restaurant, plus an indoor pool & a spa.",
           "bookingUrl": "https://www.anantara.com/en/the-marker-dublin",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Anantara%20The%20Marker%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Anantara%20The%20Marker%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-14&endDate=2026-07-17&rooms=1&adults=2",
           "imageAlt": "Anantara The Marker Dublin"
         },
         {
@@ -47,7 +47,7 @@
           ],
           "description": "Contemporary hotel near Teeling Distillery and St Patrick's Cathedral, with a restaurant, bar & garden.",
           "bookingUrl": "https://www.hyatt.com/hyatt-centric/en-US/dubct-hyatt-centric-the-liberties-dublin",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Hyatt%20Centric%20The%20Liberties%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Hyatt%20Centric%20The%20Liberties%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-14&endDate=2026-07-17&rooms=1&adults=2",
           "imageAlt": "Hyatt Centric The Liberties Dublin"
         },
         {
@@ -69,7 +69,7 @@
           ],
           "description": "Trendy boutique hotel with a rooftop restaurant (Sophie's) overlooking Dublin. Stylish rooms with record players.",
           "bookingUrl": "https://www.thedean.ie",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=The%20Dean%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=The%20Dean%20Dublin%2C%20Dublin%2C%20Ireland&startDate=2026-07-14&endDate=2026-07-17&rooms=1&adults=2",
           "imageAlt": "The Dean Dublin"
         },
         {
@@ -91,15 +91,15 @@
           ],
           "description": "Boutique hotel on Drury Street steps from Grafton Street. Known for excellent service and a cozy library bar.",
           "bookingUrl": "https://www.brookshotel.ie",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Brooks%20Hotel%2C%20Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Brooks%20Hotel%2C%20Dublin%2C%20Ireland&startDate=2026-07-14&endDate=2026-07-17&rooms=1&adults=2",
           "imageAlt": "Brooks Hotel"
         }
       ]
     },
     {
       "city": "Galway",
-      "nights": 2,
-      "checkIn": "2026-07-18",
+      "nights": 3,
+      "checkIn": "2026-07-17",
       "checkOut": "2026-07-20",
       "hotels": [
         {
@@ -110,7 +110,7 @@
           "rating": 4.6,
           "reviews": 2453,
           "pricePerNight": 445,
-          "totalPrice": 890,
+          "totalPrice": 1335,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast",
@@ -121,7 +121,7 @@
           ],
           "description": "Elegant rooms & suites in a traditional hotel with an upscale restaurant and a carved-oak bar.",
           "bookingUrl": "https://www.parkhousehotel.ie/?utm_source=mybusiness&utm_medium=organic",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Park%20House%20Hotel%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Park%20House%20Hotel%2C%20Galway%2C%20Ireland&startDate=2026-07-17&endDate=2026-07-20&rooms=1&adults=2",
           "imageAlt": "Park House Hotel"
         },
         {
@@ -132,7 +132,7 @@
           "rating": 4.8,
           "reviews": 129,
           "pricePerNight": 355,
-          "totalPrice": 710,
+          "totalPrice": 1065,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast",
@@ -142,7 +142,7 @@
           ],
           "description": "Stylish property with modern rooms, cooked breakfast and views of the bay, plus free Wi-Fi.",
           "bookingUrl": "http://www.seabreezelodge.org/",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Sea%20Breeze%20Lodge%20B%26B%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Sea%20Breeze%20Lodge%20B%26B%2C%20Galway%2C%20Ireland&startDate=2026-07-17&endDate=2026-07-20&rooms=1&adults=2",
           "imageAlt": "Sea Breeze Lodge B&B"
         },
         {
@@ -153,7 +153,7 @@
           "rating": 4.6,
           "reviews": 301,
           "pricePerNight": 374,
-          "totalPrice": 748,
+          "totalPrice": 1122,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast ($)",
@@ -164,7 +164,7 @@
           ],
           "description": "",
           "bookingUrl": "https://www.radissonhotels.com/en-us/hotels/radisson-red-galway?cid=a:se+b:gmb+c:emea+i:local+e:rdr+d:ukirwe+h:IEGWYAAA",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Radisson%20RED%20Galway%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Radisson%20RED%20Galway%2C%20Galway%2C%20Ireland&startDate=2026-07-17&endDate=2026-07-20&rooms=1&adults=2",
           "imageAlt": "Radisson RED Galway"
         },
         {
@@ -175,7 +175,7 @@
           "rating": 4.4,
           "reviews": 2161,
           "pricePerNight": 258,
-          "totalPrice": 516,
+          "totalPrice": 774,
           "neighborhood": "Galway City Centre",
           "highlights": [
             "Breakfast ($)",
@@ -186,7 +186,7 @@
           ],
           "description": "Classic, upscale rooms, plus a stylish restaurant and a casual, modern bar with a pizza menu.",
           "bookingUrl": "http://www.menloparkhotel.com/",
-          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Menlo%20Park%20Hotel%2C%20Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-21&rooms=1&adults=2",
+          "expediaUrl": "https://www.expedia.com/Hotel-Search?destination=Menlo%20Park%20Hotel%2C%20Galway%2C%20Ireland&startDate=2026-07-17&endDate=2026-07-20&rooms=1&adults=2",
           "imageAlt": "Menlo Park Hotel"
         }
       ]

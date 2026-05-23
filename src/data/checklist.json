@@ -5,7 +5,7 @@
       "item": "Flights (JFK→DUB + EDI→JFK)",
       "urgency": "now",
       "booked": false,
-      "notes": "JetBlue B6 841 & B6 72 — $782/person round-trip. Prices will go up as July approaches.",
+      "notes": "JetBlue B6 841 & B6 72 — $989/person round-trip (Blue Basic). Prices will go up as July approaches.",
       "url": "https://www.jetblue.com"
     },
     {
@@ -18,19 +18,19 @@
     },
     {
       "id": "bk-hotels-dublin",
-      "item": "Hotel: Dublin (3 nights, Jul 15-18)",
+      "item": "Hotel: Dublin (3 nights, Jul 14-17)",
       "urgency": "now",
       "booked": false,
       "notes": "July is peak season. Good hotels sell out months ahead.",
-      "url": "https://www.expedia.com/Hotel-Search?destination=Dublin%2C%20Ireland&startDate=2026-07-15&endDate=2026-07-18&rooms=1&adults=2"
+      "url": "https://www.expedia.com/Hotel-Search?destination=Dublin%2C%20Ireland&startDate=2026-07-14&endDate=2026-07-17&rooms=1&adults=2"
     },
     {
       "id": "bk-hotels-galway",
-      "item": "Hotel: Galway (2 nights, Jul 18-20)",
+      "item": "Hotel: Galway (3 nights, Jul 17-20)",
       "urgency": "now",
       "booked": false,
-      "notes": "Galway has fewer hotel options than Dublin — book early. Check out Jul 20 morning, bus to Shannon for 4pm flight.",
-      "url": "https://www.expedia.com/Hotel-Search?destination=Galway%2C%20Ireland&startDate=2026-07-18&endDate=2026-07-20&rooms=1&adults=2"
+      "notes": "Galway has fewer hotel options than Dublin — book early. Check out Jul 20 morning, bus or shuttle to Shannon for 4pm flight.",
+      "url": "https://www.expedia.com/Hotel-Search?destination=Galway%2C%20Ireland&startDate=2026-07-17&endDate=2026-07-20&rooms=1&adults=2"
     },
     {
       "id": "bk-hotels-edinburgh-1",
@@ -61,7 +61,7 @@
       "item": "Cliffs of Moher Day Tour from Galway",
       "urgency": "soon",
       "booked": false,
-      "notes": "Jul 19. Galway Tour Company (~$40/person). Small-group tours sell out in peak season.",
+      "notes": "Jul 18. Galway Tour Company (~$40/person). Small-group tours sell out in peak season.",
       "url": "https://www.galwaytourcompany.com"
     },
     {
@@ -69,7 +69,7 @@
       "item": "Connemara or Aran Islands Day Trip",
       "urgency": "soon",
       "booked": false,
-      "notes": "Jul 20. Connemara tour (~$35/person) or Aran Islands ferry (~$30/person). Aran Islands is weather-dependent — have Connemara as backup.",
+      "notes": "Jul 19. Connemara tour (~$35/person) or Aran Islands ferry (~$30/person). Aran Islands is weather-dependent — have Connemara as backup.",
       "url": "https://www.galwaytourcompany.com"
     },
     {
@@ -77,7 +77,7 @@
       "item": "Book of Kells / Trinity College",
       "urgency": "soon",
       "booked": false,
-      "notes": "Jul 16. Timed entry, $18/person. Morning slots are best. Often sells out in summer.",
+      "notes": "Jul 15. Timed entry, $18/person. Morning slots are best. Often sells out in summer.",
       "url": "https://www.tcd.ie/visitors/book-of-kells/"
     },
     {
@@ -93,7 +93,7 @@
       "item": "Edinburgh Castle",
       "urgency": "soon",
       "booked": false,
-      "notes": "Jul 22. $19/person. Book a morning slot to beat the crowds.",
+      "notes": "Jul 21. $19/person. Book a morning slot to beat the crowds.",
       "url": "https://www.edinburghcastle.scot"
     },
     {
@@ -101,7 +101,7 @@
       "item": "Guinness Storehouse",
       "urgency": "soon",
       "booked": false,
-      "notes": "Jul 16. $26/person. Book online for a discount. Optional — skip if not interested.",
+      "notes": "Jul 15. $26/person. Book online for a discount. Optional — skip if not interested.",
       "url": "https://www.guinness-storehouse.com"
     },
     {
@@ -109,15 +109,15 @@
       "item": "Irish Rail: Dublin → Galway",
       "urgency": "later",
       "booked": false,
-      "notes": "Jul 18. ~$20/person. Book online for cheaper 'web fare' prices. Trains run hourly from Dublin Heuston.",
+      "notes": "Jul 17. ~$20/person. Book online for cheaper 'web fare' prices. Trains run hourly from Dublin Heuston.",
       "url": "https://www.irishrail.ie"
     },
     {
       "id": "bk-galway-bus",
-      "item": "Bus: Galway → Shannon Airport",
+      "item": "Transfer: Galway → Shannon Airport",
       "urgency": "later",
       "booked": false,
-      "notes": "Jul 20. ~$12/person. Bus Eireann from Galway Coach Station. Depart ~1:30pm for 4pm Ryanair flight. Only 1h 45min ride.",
+      "notes": "Jul 20. Option A: Bus Eireann (~$12/person, depart ~12:05pm from Galway Coach Station, 1h 45m). Option B: Galway Shuttle (~$140 total, private hotel pickup, ~1h 15m). Both get you there with plenty of time for the 4pm Ryanair flight.",
       "url": "https://www.buseireann.ie"
     },
     {

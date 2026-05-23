@@ -1,9 +1,9 @@
 {
   "trip": {
     "name": "Ireland & Scotland",
-    "duration": "11 days / 10 nights",
+    "duration": "12 days / 11 nights",
     "month": "July 2026",
-    "startDate": "2026-07-14",
+    "startDate": "2026-07-13",
     "endDate": "2026-07-25",
     "travelers": 2,
     "style": "Cities, culture & food + dramatic nature",
@@ -15,12 +15,12 @@
       "flight": "B6 841",
       "from": "JFK",
       "to": "DUB",
-      "date": "2026-07-14",
+      "date": "2026-07-13",
       "depart": "9:04 PM",
       "arrive": "9:00 AM+1",
       "duration": "6h 56m",
       "stops": 0,
-      "pricePerPerson": 782,
+      "pricePerPerson": 989,
       "fareClass": "Blue Basic",
       "note": "Round-trip price with return (EDI→JFK)"
     },
@@ -38,29 +38,29 @@
       "fareClass": "Blue Basic",
       "note": "Included in round-trip price"
     },
-    "totalPerPerson": 782,
+    "totalPerPerson": 989,
     "fareOptions": {
-      "Blue Basic": { "price": 782, "checkedBag": "$170", "seatSelection": "Fee", "changes": "No" },
-      "Blue": { "price": 982, "checkedBag": "Free", "seatSelection": "Free", "changes": "Free" },
-      "Blue Extra": { "price": 1032, "checkedBag": "Free", "seatSelection": "Free", "changes": "Free" }
+      "Blue Basic": { "price": 989, "checkedBag": "$170", "seatSelection": "Fee", "changes": "No" },
+      "Blue": { "price": 1179, "checkedBag": "Free", "seatSelection": "Free", "changes": "Free" },
+      "Blue Extra": { "price": 1229, "checkedBag": "Free", "seatSelection": "Free", "changes": "Free" }
     }
   },
   "days": [
     {
       "day": 1,
-      "date": "2026-07-14",
-      "dayOfWeek": "Tuesday",
+      "date": "2026-07-13",
+      "dayOfWeek": "Monday",
       "city": "In Transit",
       "country": "ireland",
       "label": "Fly NYC to Dublin",
-      "summary": "JetBlue B6 841 departing JFK at 9:04 PM. Arrive Dublin 9:00 AM Wednesday.",
+      "summary": "JetBlue B6 841 departing JFK at 9:04 PM. Arrive Dublin 9:00 AM Tuesday.",
       "activities": [],
       "icon": "plane"
     },
     {
       "day": 2,
-      "date": "2026-07-15",
-      "dayOfWeek": "Wednesday",
+      "date": "2026-07-14",
+      "dayOfWeek": "Tuesday",
       "city": "Dublin",
       "country": "ireland",
       "label": "Arrive & Explore Dublin",
@@ -70,8 +70,8 @@
     },
     {
       "day": 3,
-      "date": "2026-07-16",
-      "dayOfWeek": "Thursday",
+      "date": "2026-07-15",
+      "dayOfWeek": "Wednesday",
       "city": "Dublin",
       "country": "ireland",
       "label": "Dublin: History & Culture",
@@ -81,8 +81,8 @@
     },
     {
       "day": 4,
-      "date": "2026-07-17",
-      "dayOfWeek": "Friday",
+      "date": "2026-07-16",
+      "dayOfWeek": "Thursday",
       "city": "Dublin",
       "country": "ireland",
       "label": "Dublin: Howth Coastal Day Trip",
@@ -92,8 +92,8 @@
     },
     {
       "day": 5,
-      "date": "2026-07-18",
-      "dayOfWeek": "Saturday",
+      "date": "2026-07-17",
+      "dayOfWeek": "Friday",
       "city": "Galway",
       "country": "ireland",
       "label": "Train to Galway",
@@ -103,8 +103,8 @@
     },
     {
       "day": 6,
-      "date": "2026-07-19",
-      "dayOfWeek": "Sunday",
+      "date": "2026-07-18",
+      "dayOfWeek": "Saturday",
       "city": "Galway",
       "country": "ireland",
       "label": "Cliffs of Moher & Burren",
@@ -114,17 +114,28 @@
     },
     {
       "day": 7,
+      "date": "2026-07-19",
+      "dayOfWeek": "Sunday",
+      "city": "Galway",
+      "country": "ireland",
+      "label": "Connemara or Aran Islands",
+      "summary": "Choose between Connemara National Park tour or Aran Islands ferry day trip. Aran Islands is weather-dependent — have Connemara as backup.",
+      "activities": ["act-gal-connemara", "act-gal-aran"],
+      "icon": "nature"
+    },
+    {
+      "day": 8,
       "date": "2026-07-20",
       "dayOfWeek": "Monday",
       "city": "Edinburgh",
       "country": "scotland",
       "label": "Galway → Shannon → Edinburgh",
-      "summary": "Relaxed morning in Galway — last walk, breakfast, pack up. Afternoon bus to Shannon Airport (Bus Eireann, ~1h 45m, depart ~1:30pm). Ryanair FR1676 departs 4:00pm, arrive Edinburgh ~5:15pm. Taxi to city centre by ~6pm. Check into hotel, evening stroll on the Royal Mile.",
+      "summary": "Salthill Promenade walk and last morning in Galway. Bus to Shannon Airport (Bus Eireann, ~1h 45m, depart ~12:05pm, ~$12/person) or private shuttle (Galway Shuttle, ~$140 total, hotel pickup). Ryanair FR1676 departs 4:00pm, arrive Edinburgh ~5:15pm. Taxi to city centre by ~6pm. Check into hotel, evening stroll on the Royal Mile.",
       "activities": ["act-transport-galway-shannon-bus", "act-edi-royalmile"],
       "icon": "plane"
     },
     {
-      "day": 8,
+      "day": 9,
       "date": "2026-07-21",
       "dayOfWeek": "Tuesday",
       "city": "Edinburgh",
@@ -135,7 +146,7 @@
       "icon": "culture"
     },
     {
-      "day": 9,
+      "day": 10,
       "date": "2026-07-22",
       "dayOfWeek": "Wednesday",
       "city": "Edinburgh",
@@ -146,7 +157,7 @@
       "icon": "city"
     },
     {
-      "day": 10,
+      "day": 11,
       "date": "2026-07-23",
       "dayOfWeek": "Thursday",
       "city": "Highlands",
@@ -157,7 +168,7 @@
       "icon": "nature"
     },
     {
-      "day": 11,
+      "day": 12,
       "date": "2026-07-24",
       "dayOfWeek": "Friday",
       "city": "Edinburgh",
