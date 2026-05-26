@@ -256,8 +256,8 @@
       "city": "Edinburgh",
       "category": "tour",
       "priority": "must-see",
-      "pricePerPerson": 146,
-      "duration": "2 days (overnight B&B accommodation extra ~£40-80)",
+      "pricePerPerson": 185,
+      "duration": "2 days (overnight B&B extra ~£40-80/person)",
       "bookingRequired": true,
       "bookingUrl": "https://www.rabbies.com/en-gb/tour/loch-ness-inverness-the-highlands-2-day-tour-from-edinburgh",
       "description": "Small-group tour (max 16) in a Mercedes mini-coach. Day 1: Cairngorms, Loch Morlich, Inverness. Day 2: Loch Ness, Glencoe, Great Glen, return to Edinburgh ~7pm. Overnight in a Highland B&B/guesthouse.",
@@ -286,8 +286,8 @@
       "duration": "1h 45min",
       "bookingRequired": false,
       "bookingUrl": "https://www.buseireann.ie",
-      "description": "Bus Eireann route from Galway to Shannon Airport. Much shorter than the 3h 15m bus to Dublin Airport. Depart Galway ~1:30pm for the 4pm Ryanair flight.",
-      "tips": "Departs from Galway Coach Station (Ceannt Station, near Eyre Square). Book online for best price. Shannon is a tiny airport — security is quick."
+      "description": "Bus Eireann route from Galway to Shannon Airport. Much shorter than the 3h 15m bus to Dublin Airport. Take the ~12:05pm bus for extra buffer before the 4pm Ryanair flight.",
+      "tips": "Departs from Galway Coach Station (Ceannt Station, near Eyre Square). Buses run hourly. Book online for best price. Shannon is a tiny airport — security is quick. Alternative: Galway Shuttle (~$140 total, private hotel pickup, ~1h 15m) at galwayshuttle.com."
     },
     {
       "id": "act-transport-dart",

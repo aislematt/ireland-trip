@@ -106,9 +106,10 @@
     },
     {
       "id": "leg-mid",
-      "label": "Dublin to Edinburgh",
+      "label": "Dublin to Edinburgh (see alternatives)",
       "from": "Dublin",
       "to": "Edinburgh",
+      "note": "Plan uses Shannon→Edinburgh (Ryanair FR1676, Jul 20, ~$50/person). These Dublin→Edinburgh options are kept for reference if plans change.",
       "options": [
         {
           "id": "flt-mid-001",
@@ -271,5 +272,5 @@
     "Aer Lingus offers US preclearance in Dublin, saving time on arrival",
     "Ryanair charges extra for checked bags and seat selection"
   ],
-  "lastUpdated": "2026-05-19"
+  "lastUpdated": "2026-05-25"
 }

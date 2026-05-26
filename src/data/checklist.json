@@ -13,7 +13,7 @@
       "item": "Flight: Shannon → Edinburgh (Ryanair FR1676)",
       "urgency": "now",
       "booked": false,
-      "notes": "Ryanair FR1676, Jul 20, departs Shannon 4:00pm → Edinburgh 5:15pm. Book at ryanair.com. Ryanair charges extra for checked bags ($25-40).",
+      "notes": "Ryanair FR1676, Jul 20, departs Shannon 4:00pm → Edinburgh 5:15pm. ~$50/person one-way. Book at ryanair.com. Ryanair charges extra for checked bags ($25-40) and seat selection.",
       "url": "https://www.ryanair.com/flights/gb/en/flights-from-shannon-to-edinburgh"
     },
     {
@@ -53,7 +53,7 @@
       "item": "2-Day Highlands & Loch Ness Tour",
       "urgency": "now",
       "booked": false,
-      "notes": "Jul 23-24. Rabbie's ($189/person) or Haggis Adventures ($169/person). These sell out weeks ahead in summer. Includes overnight B&B.",
+      "notes": "Jul 23-24. Rabbie's (~$185/person) or Haggis Adventures (~$169/person). Accommodation NOT included — add B&B at checkout (~£40-80/person). These sell out weeks ahead in summer.",
       "url": "https://www.rabbies.com/en/edinburgh-tours/multi-day-tours/2-day-loch-ness-inverness-highlands"
     },
     {
