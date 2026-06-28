@@ -21,12 +21,12 @@ const restaurantMap = Object.fromEntries(activitiesData.restaurants.map(r => [r.
 
 const NAV_ITEMS = [
   { id: 'checklist', label: 'Checklist' },
-  { id: 'flights', label: 'Flights' },
   { id: 'itinerary', label: 'Itinerary' },
-  { id: 'hotels', label: 'Hotels' },
   { id: 'activities', label: 'Activities' },
   { id: 'budget', label: 'Budget' },
   { id: 'prep', label: 'Trip Prep' },
+  { id: 'flights', label: 'Flights' },
+  { id: 'hotels', label: 'Hotels' },
 ]
 
 export default function App() {
@@ -72,25 +72,6 @@ export default function App() {
           <BookingChecklist items={checklistData.bookingChecklist} />
         </section>
 
-        {/* Selected Flights */}
-        {itinerary.selectedFlights && (
-          <section id="booked-flights">
-            <SectionHeader title="Flights" subtitle="JetBlue round-trip: JFK &rarr; Dublin &middot; Edinburgh &rarr; JFK" />
-            <SelectedFlights selected={itinerary.selectedFlights} />
-          </section>
-        )}
-
-        {/* Flight Alternatives */}
-        <section id="flights">
-          <SectionHeader title="Flight Alternatives" subtitle="Other options from Google Flights for comparison" />
-          <FlightComparison
-            legs={flights.legs}
-            favorited={isFavorited}
-            sharedFavorite={isSharedFavorite}
-            onToggleFavorite={toggleFavorite}
-          />
-        </section>
-
         {/* Itinerary */}
         <section id="itinerary">
           <SectionHeader title="Day-by-Day Itinerary" subtitle="July 14-25 — your 11-day journey through Ireland and Scotland" />
@@ -112,17 +93,6 @@ export default function App() {
               )
             })}
           </div>
-        </section>
-
-        {/* Hotels */}
-        <section id="hotels">
-          <SectionHeader title="Hotels" subtitle="Mid-range and luxury options with real July 2026 pricing" />
-          <HotelSection
-            cities={hotels.cities}
-            favorited={isFavorited}
-            sharedFavorite={isSharedFavorite}
-            onToggleFavorite={toggleFavorite}
-          />
         </section>
 
         {/* Activities & Restaurants */}
@@ -167,6 +137,39 @@ export default function App() {
           </div>
         </section>
 
+        {/* Flights — collapsible */}
+        <section id="flights">
+          <CollapsibleSection title="Flights" subtitle="Booked flights and alternative options">
+            {itinerary.selectedFlights && (
+              <div className="mb-8">
+                <h3 className="text-lg font-semibold text-stone-700 mb-3">Your Booked Flights</h3>
+                <SelectedFlights selected={itinerary.selectedFlights} />
+              </div>
+            )}
+            <div>
+              <h3 className="text-lg font-semibold text-stone-700 mb-3">Flight Alternatives</h3>
+              <FlightComparison
+                legs={flights.legs}
+                favorited={isFavorited}
+                sharedFavorite={isSharedFavorite}
+                onToggleFavorite={toggleFavorite}
+              />
+            </div>
+          </CollapsibleSection>
+        </section>
+
+        {/* Hotels — collapsible */}
+        <section id="hotels">
+          <CollapsibleSection title="Hotels" subtitle="Mid-range and luxury options with real July 2026 pricing">
+            <HotelSection
+              cities={hotels.cities}
+              favorited={isFavorited}
+              sharedFavorite={isSharedFavorite}
+              onToggleFavorite={toggleFavorite}
+            />
+          </CollapsibleSection>
+        </section>
+
         {/* Footer */}
         <footer className="text-center py-8 border-t border-border text-xs text-stone-400">
           <p>Prices from Google Flights and Google Hotels &middot; Always verify before booking</p>
@@ -183,5 +186,20 @@ function SectionHeader({ title, subtitle }) {
       <h2 className="text-2xl font-bold text-stone-800">{title}</h2>
       {subtitle && <p className="text-sm text-stone-500">{subtitle}</p>}
     </div>
+  )
+}
+
+function CollapsibleSection({ title, subtitle, children }) {
+  return (
+    <details className="group">
+      <summary className="flex items-center gap-2 cursor-pointer list-none mb-4 select-none">
+        <span className="text-stone-400 transition-transform duration-200 group-open:rotate-90">▶</span>
+        <div>
+          <h2 className="text-2xl font-bold text-stone-800 inline">{title}</h2>
+          {subtitle && <p className="text-sm text-stone-500">{subtitle}</p>}
+        </div>
+      </summary>
+      {children}
+    </details>
   )
 }
